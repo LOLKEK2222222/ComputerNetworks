@@ -2,8 +2,7 @@ import os
 
 
 with open("ip_list.txt") as file:
-    park = file.read()
-    park = park.splitlines()
+    park = file.read().splitlines()
     print(" {park}  \n")
 
 open('ip_output.csv', 'w').close()
