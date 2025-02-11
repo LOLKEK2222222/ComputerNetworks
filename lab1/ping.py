@@ -1,5 +1,6 @@
 import os
 
+
 with open("ip_list.txt") as file:
     park = file.read()
     park = park.splitlines()
